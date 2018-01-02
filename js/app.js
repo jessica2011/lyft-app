@@ -2,7 +2,7 @@
 $(document).ready(function() {
   $('select').material_select();
   // Initialize collapse button
-  $('.btn-floating').sideNav();
+  $('.btnn').sideNav();
   $('.modal').modal();
   $('#modal1').modal('open');
 });
