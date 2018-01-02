@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <title>Sign Up</title>
+</head>
+<body>
+  <main>
+    <nav class="nav-extended">
+      <div class="nav-wrapper fondo">
+        <a href="start.html" class="brand-logo center"><img src="../assets/images/logo-white.png" alt="logo" class="logo"></a>
+        <a href="start.html"  class="btn-floating btn-large  bg-deeppink"><i class="material-icons center">chevron_left</i></a>
+      </div>
+    </nav>
+    <h3 class="center-align">Sing Up</h3>
+    <p class="center-align c-deeppink flow-text">Join now for free ride credit</p>
+  </main>
+  <div class="line"></div>
+  <section class="container">
+    <div class="row">
+      <div class="input-field col s4 offset-s1">   
+        <select class="">
+          <option class="left" data-icon="../assets/images/peru.png" value="2">Perú</option>
+          <option class="left" data-icon="../assets/images/co.png" value="1">Colombia</option>
+          <option class="left" data-icon="../assets/images/mx.png" value="3">México</option>
+          <option class="left" data-icon="../assets/images/us.png" value="4">USA</option>
+        </select>
+      </div>
+      <div class="input-field col s6">
+        <input value="51" id="phone" data-length="10" type="number" class="validate">
+        <label for="number">Phone</label>
+      </div>
+      <br><br><br><br><br>
+      <p class="center-align flow-text">We'll send a text to verify your phone</p>
+    </div>
+    <div class="row">
+      <a class="btn-code disabled waves-effect waves-light btn-large col s10 offset-s1 btn-up bg-deeppink" href="verify.html">Next</a>
+    </div>
+  </section>  
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script type="text/javascript" src="../js/app.js"></script>  
+</body>
+</html>

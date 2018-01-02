@@ -1,0 +1,110 @@
+body {
+  color: #333447;
+}
+
+.line {
+  margin: 0 5% 20px;
+  width: 90%;
+  height: 1px;
+  background-color: #352384;
+}
+
+.logo-principal{
+  width: 100%;
+}
+
+.logo {
+  width: 100px;
+  height: 70px;
+  padding: 15px;
+}
+
+.logoo {
+  width: 100px;
+  height: 70px;
+  padding: 15px;
+  margin-bottom: 68vh;
+}
+
+.container-flex-column {
+  display: flex;
+	flex-direction: column;
+  justify-content: center;
+  padding: 2em;
+}
+
+.grad-bttm {
+  background: linear-gradient(to bottom right,#591d6e,#ff00bf)
+}
+
+.fondo{
+  background: linear-gradient(#76278f,#2b1e66)
+}
+
+.bg-deeppink {
+  background-color: #ff00bf;
+}
+
+.c-deeppink{
+  color: #ff00bf;
+}
+
+.bg-deeppink:hover {
+  background-color: #ff00bf;
+}
+
+/* clases retulizables */
+
+.bg-img {
+  background-position: center bottom; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+  width: 100%;
+}
+
+.vh100 {
+  height: 100vh
+}
+
+/* Start */
+
+.container-bg {
+  background-image: url("../assets/images/banner.jpg")
+}
+
+.btn-up {
+  position: absolute;
+  border-radius: 4px;
+  bottom: 30px;
+}
+
+.btn-start {
+  font-size: 16px;
+  border: 2px solid white;
+  font-weight: bold;
+}
+
+.m-bttm {
+  margin-top: 200px;
+}
+
+/* signUp.html  */
+
+.btn-large {
+  margin: 10px;
+} 
+
+/* verify.html */
+.w-30 {
+  width: 43px;
+}
+
+/* account.html  */
+
+
+
+
+
+
+
+
